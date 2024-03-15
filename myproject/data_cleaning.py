@@ -22,6 +22,23 @@ if 'receipe_data' in df.columns:
 
     # Convert the DataFrame to a list of dictionaries
     updated_records = df['receipe_data'].tolist()
+
+    # Add new key-value pair 'Country': 'India' to each dictionary
+    for record in updated_records:
+        cuisine = record.get('Cuisine', '').lower()
+        if 'tamil nadu' in cuisine:
+            record['State'] = 'Tamilnadu'
+        elif 'karnataka' in cuisine:
+            record['State'] = 'Karnataka'
+        elif 'kerala' in cuisine:
+            record['State'] = 'Kerala'
+        elif 'andhra' in cuisine or 'hyderabadi' in cuisine:
+            record['State'] = 'Andhra Pradesh'
+        else:
+            # Default state if cuisine doesn't match
+            record['State'] = 'Other'
+        record['Country'] = 'India'
+
     json_data = {
             "code": 200,
             "status": "Success",
