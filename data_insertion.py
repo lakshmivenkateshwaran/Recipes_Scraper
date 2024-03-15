@@ -24,6 +24,6 @@ def store_to_mongo(records):
     client.close()
 
 if __name__ == "__main__":
-    # Call the store_to_mongo function
+    # Calling the store_to_mongo function
     store_to_mongo(updated_records)
 
