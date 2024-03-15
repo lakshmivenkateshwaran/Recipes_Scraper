@@ -16,9 +16,10 @@ This Scrapy project is designed to scrape recipes and related information from a
 - pipelines.py          # Pipeline for processing scraped items
 - settings.py           # Scrapy project settings
 - data_cleaning.py      # Python script for data cleaning with pandas
+- data_insertion.py     # Python script for storing the data into MongoDB
 - final_recipes.json    # Final json data which has some empty objects
 - updated_
-final_recipes.json      # Updated and cleaned Data
+- final_recipes.json      # Updated and cleaned Data
 - README.md             # Project documentation
 - requirements.txt      # List of project dependencies
 
