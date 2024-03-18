@@ -17,9 +17,12 @@ This Scrapy project is designed to scrape recipes and related information from a
 - settings.py           # Scrapy project settings
 - data_cleaning.py      # Python script for data cleaning with pandas
 - data_insertion.py     # Python script for storing the data into MongoDB
+- receipes_spider_mushroom.py   # Python script for scraping Mushroom recipes
+- receipes_spider_snacks.py     # Python script for scraping Snacks recipes
+- receipes_spider_banana.py     # Python script for scraping Banana recipes
+- main.py               # Python scrapy scripts inside FastAPI
 - final_recipes.json    # Final json data which has some empty objects
-- updated_
-- final_recipes.json      # Updated and cleaned Data
+- updated_final_recipes.json    # Updated and cleaned Data
 - README.md             # Project documentation
 - requirements.txt      # List of project dependencies
 

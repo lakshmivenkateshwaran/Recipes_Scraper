@@ -2,6 +2,7 @@ import pymongo
 import json
 from myproject import data_cleaning as dc
 
+
 updated_records = dc.updated_records
 
 # Define the function to store records to MongoDB

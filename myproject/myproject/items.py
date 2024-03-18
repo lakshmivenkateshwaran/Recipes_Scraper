@@ -15,3 +15,36 @@ class RecipeItem(scrapy.Item):
     total_time = scrapy.Field()
     cuisine = scrapy.Field()
     course = scrapy.Field()
+
+class BananaItem(scrapy.Item):
+    title = scrapy.Field()
+    ingredients = scrapy.Field()
+    instructions = scrapy.Field()
+    description = scrapy.Field()
+    prep_time = scrapy.Field()
+    cook_time = scrapy.Field()
+    total_time = scrapy.Field()
+    cuisine = scrapy.Field()
+    course = scrapy.Field()
+
+class SnacksItem(scrapy.Item):
+    title = scrapy.Field()
+    ingredients = scrapy.Field()
+    instructions = scrapy.Field()
+    description = scrapy.Field()
+    prep_time = scrapy.Field()
+    cook_time = scrapy.Field()
+    total_time = scrapy.Field()
+    cuisine = scrapy.Field()
+    course = scrapy.Field()
+
+class MushroomItem(scrapy.Item):
+    title = scrapy.Field()
+    ingredients = scrapy.Field()
+    instructions = scrapy.Field()
+    description = scrapy.Field()
+    prep_time = scrapy.Field()
+    cook_time = scrapy.Field()
+    total_time = scrapy.Field()
+    cuisine = scrapy.Field()
+    course = scrapy.Field()
