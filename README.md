@@ -13,7 +13,7 @@ Lastly, the Delete method provides users with the option to remove their profile
 ## Setup
 
 1. Clone the repository:
-   git clone https://github.com/your-username/FastAPI_crud_operations
+   git clone https://github.com/your-username/Recipes_Scraper
    cd fastapi-crud-api
 
 2. Install dependencies
