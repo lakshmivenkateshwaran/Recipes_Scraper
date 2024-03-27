@@ -1,0 +1,33 @@
+//Sample json for testing the PUT method
+{
+    "name": "Venkateshwaran G",
+    "age": 29,
+    "email": "venkateshwaran1234@gamil.com",
+    "password": "qwerty123",
+    "gender": "Male",
+    "language": "English",
+    "country": "India",
+    "state": "Tamil Nadu",
+    "district": "Kanchipuram",
+    "fav_cuisine_1": "South Indian",
+    "fav_cuisine_2": "Kerala",
+    "fav_cuisine_3": "Tamil Nadu"
+  }
+
+  //Sample json for testing the POST method
+
+  {
+    "name": "Saranya",
+    "age": 29,
+    "email": "saranya@gamil.com",
+    "phone_number": "2345678911",
+    "password": "liberty",
+    "gender": "Female",
+    "language": "Tamil",
+    "country": "India",
+    "state": "Tamil Nadu",
+    "district": "Chennai",
+    "fav_cuisine_1": "South Indian",
+    "fav_cuisine_2": "Kerala",
+    "fav_cuisine_3": "Karnataka"
+  }
